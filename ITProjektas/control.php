@@ -2,7 +2,7 @@
 // Pradėti sesiją
 session_start();
 
-// Patikrinti ar prisijunges
+// Patikrinti ar prisijunges:)
 if (!isset($_SESSION['login_user'])) {
     die("Pirmiausia prisijunkite");
 }
